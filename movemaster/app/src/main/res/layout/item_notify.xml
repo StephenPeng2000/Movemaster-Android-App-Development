@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_round_white_6"
+    android:elevation="1dp"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/notifyContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提醒内容：吃饭" />
+
+    <TextView
+        android:id="@+id/notifyTime"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提醒时间：2022/04/02 12:30" />
+
+    <TextView
+        android:id="@+id/notifyStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提醒状态：已完成" />
+</LinearLayout>

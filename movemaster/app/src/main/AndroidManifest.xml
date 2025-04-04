@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SportHealth">
+        <activity
+            android:name=".ui.activity.NotifyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.DrinkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.DrinkRecordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.UserInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.AddNotifyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.NotifyListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.BMIActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.HealthRecordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.BloodPressureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.HeartRateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.SportRecordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.SportTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.AddSportRecordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.CountDownActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.SportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.activity.PostActivity" />
+        <activity android:name=".ui.activity.PostDetailActivity" />
+        <activity android:name=".ui.activity.SendPostActivity" />
+
+        <service android:name=".service.NotifyService" />
+    </application>
+
+</manifest>
